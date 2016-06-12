@@ -17,7 +17,7 @@ def getName():
 		student_name = input()
 		if all(character.isalpha() or character.isspace() for character in student_name):
 			return student_name
-		print(student_name + " is not a name that only contains letters or spaces, re-enter: ")	
+		print(str(student_name) + " is not a name that only contains letters or spaces, re-enter: ")	
 def getAge():
 	print('Enter your age: ')
 	while True:
